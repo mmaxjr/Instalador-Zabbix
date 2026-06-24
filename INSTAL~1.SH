@@ -107,8 +107,8 @@ log "Banco '${DB_NAME}' criado com usuário '${DB_USER}'."
 # ============================================================
 log "Adicionando repositório Zabbix 7.4..."
 cd /tmp
-wget -q https://repo.zabbix.com/zabbix/7.4/debian/pool/main/z/zabbix-release/zabbix-release_latest+debian12_all.deb
-dpkg -i zabbix-release_latest+debian12_all.deb
+wget -q https://repo.zabbix.com/zabbix/7.4/release/debian/pool/main/z/zabbix-release/zabbix-release_latest_7.4+debian12_all.deb
+dpkg -i zabbix-release_latest_7.4+debian12_all.deb
 apt-get update -qq
 log "Repositório Zabbix 7.4 adicionado."
 # ============================================================
